@@ -1,78 +1,40 @@
-# AI Dashboard – Titanic Data Analysis
+# 🚢 AI Dashboard – Titanic Data Analysis
 
-## Introduction
+## Overview
 
-This project is an interactive AI Dashboard developed using Streamlit and the Titanic dataset. The dashboard helps users understand passenger demographics, survival patterns, and important trends through visualizations and interactive filters.
+This project is an interactive AI Dashboard built using Streamlit and the Titanic dataset. The dashboard helps users explore passenger information, survival trends, and important insights through interactive visualizations and analytics.
 
-## Project Features
+## Features
 
-* Interactive Dashboard
-* Data Cleaning and Preprocessing
+* Dataset Overview
+* Dataset Preview
 * Missing Value Analysis
+* Data Cleaning
 * KPI Metrics
-* Dynamic Filters
-* Multiple Data Visualizations
-* Insights and Recommendations
+* Interactive Visualizations
+* Survival Analysis
+* User-Friendly Dashboard
 
-## Tools and Libraries
+## Technologies Used
 
 * Python
 * Streamlit
 * Pandas
 * NumPy
-* Plotly Express
+* Plotly
 
-## Dataset Information
+## Dataset
 
-The Titanic dataset contains passenger details such as:
+Titanic Dataset
 
-* Passenger ID
-* Passenger Class
-* Name
-* Gender
-* Age
-* Fare
-* Embarked Port
-* Survival Status
-
-## Dashboard Components
-
-### Dataset Overview
-
-Displays dataset shape and sample records.
-
-### Data Cleaning
-
-Handles missing values in Age and Embarked columns.
-
-### Interactive Filters
-
-* Gender Filter
-* Passenger Class Filter
-
-### Visualizations
-
-* Survival Distribution
-* Gender Distribution
-* Passenger Class Analysis
-* Age Distribution
-* Fare vs Age Analysis
-
-### Insights
-
-Provides meaningful findings from the data.
-
-### Conclusion
-
-Summarizes key observations and trends.
+Dataset Link:
+https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
 ## Project Structure
 
 AI_Dashboard/
 
 ├── app.py
-
-├── titanic.csv
 
 ├── requirements.txt
 
@@ -86,11 +48,54 @@ Install required packages:
 
 pip install -r requirements.txt
 
-## Run Application
+## Run the Project
 
 streamlit run app.py
 
-## Output
+## Dashboard Features
 
-The dashboard provides an easy-to-use interface for exploring Titanic passenger data and discovering survival trends through interactive visualizations.
+### Dataset Overview
+
+Displays dataset information and dimensions.
+
+### Missing Value Analysis
+
+Identifies missing values in each column.
+
+### KPI Metrics
+
+* Total Passengers
+* Survival Count
+* Average Age
+
+### Visualizations
+
+* Survival Distribution
+* Gender Distribution
+* Passenger Class Analysis
+* Age Distribution
+* Fare Analysis
+
+## Screenshots
+
+The screenshots folder contains:
+
+* Dashboard Home Page
+* Dataset Preview
+* Missing Value Analysis
+* KPI Metrics
+* Visualizations
+* Insights
+
+## Learning Outcomes
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Dashboard Development
+* GitHub Repository Management
+
+## Conclusion
+
+The AI Dashboard provides meaningful insights into the Titanic dataset through interactive analytics and visualizations. It demonstrates practical skills in data analysis, dashboard development, and storytelling with data.
 
